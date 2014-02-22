@@ -40,6 +40,16 @@
 	</dict>
 	<key>CFPlugInUnloadFunction</key>
 	<string></string>
+	<key>IMUsesEnableSSLAccountSetting</key>
+	<false/>
+	<key>IMUsesPasswordAccountSetting</key>
+	<false/>
+	<key>IMServiceCapabilities</key>
+	<array>
+		<string>IMServiceCapabilityGroupListHandlePictureSupport</string>
+		<string>IMServiceCapabilityInstantMessagingSupport</string>
+		<string>IMServiceCapabilityGroupListSupport</string>
+	</array>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2014 Solutions. All rights reserved.</string>
 </dict>

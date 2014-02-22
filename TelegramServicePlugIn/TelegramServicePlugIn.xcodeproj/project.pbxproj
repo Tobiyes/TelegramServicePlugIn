@@ -12,7 +12,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6E8DDE718B9484000922E08 /* TelegramServicePlugIn.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegramServicePlugIn.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E8DDE718B9484000922E08 /* Telegram.imserviceplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telegram.imserviceplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E8DDEA18B9484000922E08 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		F6E8DDEE18B9484000922E08 /* TelegramServicePlugIn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TelegramServicePlugIn-Info.plist"; sourceTree = "<group>"; };
 		F6E8DDF018B9484000922E08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		F6E8DDE818B9484000922E08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6E8DDE718B9484000922E08 /* TelegramServicePlugIn.bundle */,
+				F6E8DDE718B9484000922E08 /* Telegram.imserviceplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,7 +91,7 @@
 			);
 			name = TelegramServicePlugIn;
 			productName = TelegramServicePlugIn;
-			productReference = F6E8DDE718B9484000922E08 /* TelegramServicePlugIn.bundle */;
+			productReference = F6E8DDE718B9484000922E08 /* Telegram.imserviceplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -228,9 +228,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TelegramServicePlugIn/TelegramServicePlugIn-Prefix.pch";
 				INFOPLIST_FILE = "TelegramServicePlugIn/TelegramServicePlugIn-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Messages/PlugIns";
+				PRODUCT_NAME = Telegram;
+				WRAPPER_EXTENSION = imserviceplugin;
 			};
 			name = Debug;
 		};
@@ -241,9 +241,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TelegramServicePlugIn/TelegramServicePlugIn-Prefix.pch";
 				INFOPLIST_FILE = "TelegramServicePlugIn/TelegramServicePlugIn-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Messages/PlugIns";
+				PRODUCT_NAME = Telegram;
+				WRAPPER_EXTENSION = imserviceplugin;
 			};
 			name = Release;
 		};
